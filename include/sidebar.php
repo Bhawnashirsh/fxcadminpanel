@@ -53,7 +53,7 @@
                         <a href="javascript:void(0)" class="active-link">Admin Profile</a>
                     </li>
                     <li class="slide">
-                        <a href="vector-maps.html" class="side-menu__item">Edit Profile</a>
+                        <a href="profile.php" class="side-menu__item">Edit Profile</a>
                     </li>
 
 
@@ -132,48 +132,7 @@
                 </a>
             </li>
             <!-- End::slide -->
-
-            <!-- Start::slide -->
-            <li class="slide has-sub">
-                <a href="javascript:void(0);" class="side-menu__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
-                    </svg>
-                    <span class="side-menu__label">Nested Menu</span>
-                    <i class="ri-arrow-down-s-line side-menu__angle"></i>
-                </a>
-                <ul class="slide-menu child1">
-                    <li class="slide side-menu__label1">
-                        <a href="javascript:void(0)">Nested Menu</a>
-                    </li>
-                    <li class="slide">
-                        <a href="javascript:void(0);" class="side-menu__item">Nested-1</a>
-                    </li>
-                    <li class="slide has-sub">
-                        <a href="javascript:void(0);" class="side-menu__item">Nested-2
-                            <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
-                        <ul class="slide-menu child2">
-                            <li class="slide">
-                                <a href="javascript:void(0);" class="side-menu__item">Nested-2.1</a>
-                            </li>
-                            <li class="slide has-sub">
-                                <a href="javascript:void(0);" class="side-menu__item">Nested-2.2
-                                    <i class="ri-arrow-down-s-line side-menu__angle"></i></a>
-                                <ul class="slide-menu child3">
-                                    <li class="slide">
-                                        <a href="javascript:void(0);" class="side-menu__item">Nested-2.2.1</a>
-                                    </li>
-                                    <li class="slide">
-                                        <a href="javascript:void(0);" class="side-menu__item">Nested-2.2.2</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <!-- End::slide -->
-
+             
             <!-- Start::slide__category -->
             <li class="slide__category"><span class="category-name">Pages</span></li>
             <!-- End::slide__category -->

@@ -8171,7 +8171,7 @@ input[type=range]::-webkit-slider-runnable-track {
 .tab-style-6 .nav-item .nav-link {
   color: var(--primary-color);
   padding: 0.5rem 1rem;
-  font-size: 0.813rem;
+  font-size: 0.913rem;
   border: 0;
   font-weight: 500;
 }
@@ -19190,7 +19190,6 @@ input.error {
 }
 .app-sidebar .side-menu__item.active {
   font-weight: 500;
-  background: linear-gradient(91deg, #f9c311, #f9c311, #ffffff);
 }
 .app-sidebar .side-menu__item svg.side-menu__icon {
   width: 20px;

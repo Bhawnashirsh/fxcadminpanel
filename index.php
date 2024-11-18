@@ -4,9 +4,7 @@
      <?php include('include/sidebar.php');?>
             <!-- Start::app-content -->
             <div class="main-content app-content">
-                <div class="container-fluid">
-
-                    	
+                <div class="container-fluid">                    	
                     <!-- Start::page-header -->
                     <div class="d-flex align-items-center justify-content-between page-header-breadcrumb flex-wrap gap-2">
                         <div>

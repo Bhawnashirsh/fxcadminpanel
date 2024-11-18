@@ -30,6 +30,7 @@
 
     <!-- Style Css -->
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css">
 
     <!-- Icons Css -->
     <link href="assets/css/icons.css" rel="stylesheet">

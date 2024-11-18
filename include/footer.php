@@ -22,12 +22,8 @@
 			<footer class="footer mt-auto py-3 bg-white text-center">
 				<div class="container">
 					<span class="text-muted"> Copyright © <span id="year"></span> <a
-							href="javascript:void(0);" class="text-dark fw-medium">Xintra</a>.
-						Designed with <span class="bi bi-heart-fill text-danger"></span> by <a href="javascript:void(0);">
-							<span class="fw-medium text-primary">Spruko</span>
-						</a> All
-						rights
-						reserved
+							href="javascript:void(0);" class="text-dark fw-medium">Fxcareers</a>.
+						</a> All rights reserved
 					</span>
 				</div>
 			</footer>            <!-- End::main-footer -->
@@ -65,6 +61,10 @@
          <!-- Date & Time Picker JS -->
          <script src="assets/libs/flatpickr/flatpickr.min.js"></script>
         <!-- End::main-scripts -->
+  	
+        <!-- Date & Time Picker JS -->
+        <script src="assets/libs/flatpickr/flatpickr.min.js"></script>
+        <script src="assets/js/date%26time-pickers.js"></script>
 
                 
         <!-- Apex Charts JS -->
