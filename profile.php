@@ -295,125 +295,131 @@
                                                                         <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
                                                                     </div>
                                                                 </div>
-                                                                </form>
+                                                            </form>
                                                         </div>
-                                                        
+
                                                         <div class="tab-pane overflow-hidden" id="personalInfo-pane" role="tabpanel"
                                                             aria-labelledby="personalInfo" tabindex="0">
                                                             <form action="">
-                                                            <div class="row gy-3 align-items-center">
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Name :</span>
+                                                                <div class="row gy-3 align-items-center">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Name :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="superadmin@gmail.com">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="superadmin@gmail.com">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Gender :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="+91 1234567890">
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">DOB :</span>
+                                                                        </div>
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
+                                                                            <input type="text" class="form-control flatpickr-input" id="date" placeholder="Choose date" readonly="readonly">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Proffession :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Mentor">
+                                                                    </div>
+                                                                    <div class="col-md-12">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">BIO :</span>
+                                                                        </div>
+                                                                        <textarea class="form-control" placeholder="Hello, I'm [Your Name], a dedicated [Your Profession/Interest] based in [Your Location]. I have a genuine passion for [Your Hobbies/Interests] and enjoy delving into the nuances of [Your Industry/Field]." value="Mentor"></textarea>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Gender :</span>
-                                                                    </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="+91 1234567890">
+                                                                <div class="row mt-4 justify-content-end">
+                                                                    <ddiv class="col-md-4 text-end">
+                                                                        <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
+                                                                    </ddiv>
                                                                 </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">DOB :</span>
-                                                                    </div>
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-text text-muted"> <i class="ri-calendar-line"></i> </div>
-                                                                        <input type="text" class="form-control flatpickr-input" id="date" placeholder="Choose date" readonly="readonly">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Proffession :</span>
-                                                                    </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Mentor">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row mt-4 justify-content-end">
-                                                                <ddiv class="col-md-4 text-end">
-                                                                    <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
-                                                                </ddiv>
-                                                            </div>
                                                             </form>
                                                         </div>
                                                         <div class="tab-pane overflow-hidden" id="Address-pane" role="tabpanel"
                                                             aria-labelledby="Address" tabindex="0">
                                                             <form action="">
-                                                            <div class="row gy-3 align-items-center">
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Country :</span>
+                                                                <div class="row gy-3 align-items-center">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Country :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="India">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="India">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">State :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">State :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">City :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">City :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Pin :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Pin :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="110056">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="110056">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Address :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Address :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="k-290 house">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="k-290 house">
                                                                 </div>
-                                                            </div>
-                                                            <div class="row mt-4 justify-content-end">
-                                                                <ddiv class="col-md-4 text-end">
-                                                                    <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
-                                                                </ddiv>
-                                                            </div>
+                                                                <div class="row mt-4 justify-content-end">
+                                                                    <ddiv class="col-md-4 text-end">
+                                                                        <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
+                                                                    </ddiv>
+                                                                </div>
                                                             </form>
                                                         </div>
                                                         <div class="tab-pane overflow-hidden" id="socialLinks-pane" role="tabpanel"
                                                             aria-labelledby="socialLinks" tabindex="0">
                                                             <form action="">
-                                                            <div class="row gy-3 align-items-center">
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Facebook :</span>
+                                                                <div class="row gy-3 align-items-center">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Facebook :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Facebook">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Facebook">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Instagram :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Instagram :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="instagram">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="instagram">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Twitter :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Twitter :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="twitter.com">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="twitter.com">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Linkedin :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Linkedin :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="linkedin.com">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="linkedin.com">
-                                                                </div>
 
-                                                            </div>
-                                                            <div class="row mt-4 justify-content-end">
-                                                                <ddiv class="col-md-4 text-end">
-                                                                    <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
-                                                                </ddiv>
-                                                            </div>
+                                                                </div>
+                                                                <div class="row mt-4 justify-content-end">
+                                                                    <ddiv class="col-md-4 text-end">
+                                                                        <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
+                                                                    </ddiv>
+                                                                </div>
                                                             </form>
                                                         </div>
                                                     </div>
@@ -426,12 +432,22 @@
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link gap-2 text-start active d-flex" id="changeEmail" data-bs-toggle="tab"
                                                                 data-bs-target="#changeEmail-pane" type="button" role="tab"
-                                                                aria-controls="changeEmail-pane" aria-selected="true"> <i class="ri-mail-line font-22"></i><div> <p class="mb-0 font-16 fw-semibold"> Change Email  </p><p class="mb-0 text-muted">Request for change  email</p></div></button>
+                                                                aria-controls="changeEmail-pane" aria-selected="true"> <i class="ri-mail-line font-22"></i>
+                                                                <div>
+                                                                    <p class="mb-0 font-16 fw-semibold"> Change Email </p>
+                                                                    <p class="mb-0 text-muted">Request for change email</p>
+                                                                </div>
+                                                            </button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link gap-2  text-start d-flex" id="phoneInfo" data-bs-toggle="tab"
                                                                 data-bs-target="#phoneInfo-pane" type="button" role="tab"
-                                                                aria-controls="phoneInfo-pane" aria-selected="false"><i class="ri-phone-line font-22"></i> <div><p class="mb-0 font-16 fw-semibold">Change Phone </p><p class="mb-0 text-muted">Request for phone change</p></div></button>
+                                                                aria-controls="phoneInfo-pane" aria-selected="false"><i class="ri-phone-line font-22"></i>
+                                                                <div>
+                                                                    <p class="mb-0 font-16 fw-semibold">Change Phone </p>
+                                                                    <p class="mb-0 text-muted">Request for phone change</p>
+                                                                </div>
+                                                            </button>
                                                         </li>
 
                                                     </ul>
@@ -460,9 +476,9 @@
                                                                         <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Send OTP</button>
                                                                     </div>
                                                                 </div>
-                                                                </form>
+                                                            </form>
                                                         </div>
-                                                        
+
                                                         <div class="tab-pane overflow-hidden" id="phoneInfo-pane" role="tabpanel"
                                                             aria-labelledby="personalInfo" tabindex="0">
                                                             <form action="">
@@ -487,85 +503,85 @@
                                                                         <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Send OTP</button>
                                                                     </div>
                                                                 </div>
-                                                                </form>
+                                                            </form>
                                                         </div>
                                                         <div class="tab-pane overflow-hidden" id="Address-pane" role="tabpanel"
                                                             aria-labelledby="Address" tabindex="0">
                                                             <form action="">
-                                                            <div class="row gy-3 align-items-center">
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Country :</span>
+                                                                <div class="row gy-3 align-items-center">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Country :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="India">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="India">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">State :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">State :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">City :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">City :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Delhi">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Pin :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Pin :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="110056">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="110056">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Address :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Address :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="k-290 house">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="k-290 house">
                                                                 </div>
-                                                            </div>
-                                                            <div class="row mt-4 justify-content-end">
-                                                                <ddiv class="col-md-4 text-end">
-                                                                    <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
-                                                                </ddiv>
-                                                            </div>
+                                                                <div class="row mt-4 justify-content-end">
+                                                                    <ddiv class="col-md-4 text-end">
+                                                                        <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
+                                                                    </ddiv>
+                                                                </div>
                                                             </form>
                                                         </div>
                                                         <div class="tab-pane overflow-hidden" id="socialLinks-pane" role="tabpanel"
                                                             aria-labelledby="socialLinks" tabindex="0">
                                                             <form action="">
-                                                            <div class="row gy-3 align-items-center">
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Facebook :</span>
+                                                                <div class="row gy-3 align-items-center">
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Facebook :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="Facebook">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="Facebook">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Instagram :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Instagram :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="instagram">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="instagram">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Twitter :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Twitter :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="twitter.com">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="twitter.com">
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="lh-1 mb-2">
-                                                                        <span class="fw-medium">Linkedin :</span>
+                                                                    <div class="col-md-6">
+                                                                        <div class="lh-1 mb-2">
+                                                                            <span class="fw-medium">Linkedin :</span>
+                                                                        </div>
+                                                                        <input type="text" class="form-control" placeholder="Placeholder" value="linkedin.com">
                                                                     </div>
-                                                                    <input type="text" class="form-control" placeholder="Placeholder" value="linkedin.com">
-                                                                </div>
 
-                                                            </div>
-                                                            <div class="row mt-4 justify-content-end">
-                                                                <ddiv class="col-md-4 text-end">
-                                                                    <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
-                                                                </ddiv>
-                                                            </div>
+                                                                </div>
+                                                                <div class="row mt-4 justify-content-end">
+                                                                    <ddiv class="col-md-4 text-end">
+                                                                        <button class="btn btn-primary font-16 "><i class="ri-save-3-line"></i> Save Change</button>
+                                                                    </ddiv>
+                                                                </div>
                                                             </form>
                                                         </div>
                                                     </div>

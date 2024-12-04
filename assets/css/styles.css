@@ -9404,12 +9404,12 @@ caption {
   padding: 0.85rem 1rem;
   vertical-align: middle;
   line-height: 1.462;
-  font-size: 0.813rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 .table thead tr th {
-  font-weight: 500;
-  font-size: 0.85rem;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 .table.table-sm > :not(caption) > * > * {
   padding: 0.3rem;
