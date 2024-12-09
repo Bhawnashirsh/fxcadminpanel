@@ -16,7 +16,7 @@
                 <h1 class="page-title fw-medium fs-18 mb-0">Edit Seo Details</h1>
             </div>
             <div class="btn-list">
-                <a href="add-course.php" class="btn btn-primary btn-wave me-0">
+                <a href="add-seo-details.php" class="btn btn-primary btn-wave me-0">
                     <i class="ri-menu-add-line  me-1"></i> Add Seo Details
                 </a>
             </div>

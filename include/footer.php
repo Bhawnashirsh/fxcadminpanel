@@ -96,6 +96,9 @@
 <!-- Courses Dashboard -->
 <script src="assets/js/courses-dashboard.js"></script>
 
+<!-- Internal Profile JS -->
+<script src="assets/js/profile.js"></script>
+
 
 <!-- Sticky JS -->
 <script src="assets/js/sticky.js"></script>

@@ -58,3 +58,34 @@ table.dataTable.table-striped>tbody>tr.odd>* {
 .fs-6{
     font-size: 0.9rem !important;
 }
+.gallery-img img{
+    width: 100px;
+    object-fit: cover;
+    height: 67px;
+}
+.mentors-edit{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+.mentors-edit .dropdown-toggle::after{
+display: none;
+}
+.line-clamp-1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.line-clamp-2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.line-clamp-3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

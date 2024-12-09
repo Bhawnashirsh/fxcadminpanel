@@ -113,7 +113,6 @@
                                 </div>
                             </div>      
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            
                                 <button type="submit" class="btn btn-primary fs-6 ">
                                 Add Course
                                 </button>
