@@ -393,12 +393,178 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    
+                                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="card custom-card">
+                                                            <a href="javascript:void(0);" class="card-anchor"></a>
+                                                            <img src="assets/images/courses/bannercourse.jpg" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h6 class="card-title fw-medium">Most tropical areas are suitable</h6>
+                                                                <p class="card-text line-clamp-2"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="card custom-card">
+                                                            <a href="javascript:void(0);" class="card-anchor"></a>
+                                                            <img src="assets/images/courses/bannercourse.jpg" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h6 class="card-title fw-medium line-clamp-2">Most tropical areas are suitable</h6>
+                                                                <p class="card-text line-clamp-2"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="card custom-card">
+                                                            <a href="javascript:void(0);" class="card-anchor"></a>
+                                                            <img src="assets/images/courses/bannercourse.jpg" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h6 class="card-title fw-medium line-clamp-2">Most tropical areas are suitable</h6>
+                                                                <p class="card-text  line-clamp-2"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
-                                            <div class="tab-pane p-0 border-0" id="batches-pane" role="tabpanel"
+                                            <div class="tab-pane p-0 border rounded-3" id="batches-pane" role="tabpanel"
                                                 aria-labelledby="batches" tabindex="0">
+                                                <div class="row">
+                                                    <div class="col-xl-12">
+                                                        <div class="">
+                                                            <div class="card-header">
+                                                                <div class="card-title">
+                                                                    <h5>Batch Details</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="table-responsive">
+                                                                    <table id="datatable-basic" class="table table-bordered text-nowrap w-100">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Course Name</th>
+                                                                                <th>No. of Students</th>
+                                                                                <th>Date</th>
+                                                                                <th>Start Time</th>
+                                                                                <th>End Time</th>
+                                                                                <th>Durantion</th>
 
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Senior Javascript Developer</td>
+                                                                                <td>Edinburgh</td>
+                                                                                <td>22</td>
+                                                                                <td>2012-03-29</td>
+                                                                                <td>$433,060</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Accountant</td>
+                                                                                <td>Tokyo</td>
+                                                                                <td>33</td>
+                                                                                <td>2008-11-28</td>
+                                                                                <td>$162,700</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Integration Specialist</td>
+                                                                                <td>New York</td>
+                                                                                <td>61</td>
+                                                                                <td>2012-12-02</td>
+                                                                                <td>$372,000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Sales Assistant</td>
+                                                                                <td>San Francisco</td>
+                                                                                <td>59</td>
+                                                                                <td>2012-08-06</td>
+                                                                                <td>$137,500</td>
+                                                                            </tr>
+                                                                           
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Office Manager</td>
+                                                                                <td>San Francisco</td>
+                                                                                <td>51</td>
+                                                                                <td>2008-12-16</td>
+                                                                                <td>$164,500</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Secretary</td>
+                                                                                <td>San Francisco</td>
+                                                                                <td>41</td>
+                                                                                <td>2010-02-12</td>
+                                                                                <td>$109,850</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Financial Controller</td>
+                                                                                <td>San Francisco</td>
+                                                                                <td>62</td>
+                                                                                <td>2009-02-14</td>
+                                                                                <td>$452,500</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Office Manager</td>
+                                                                                <td>London</td>
+                                                                                <td>37</td>
+                                                                                <td>2008-12-11</td>
+                                                                                <td>$136,200</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Director</td>
+                                                                                <td>New York</td>
+                                                                                <td>65</td>
+                                                                                <td>2008-09-26</td>
+                                                                                <td>$645,750</td>
+                                                                            </tr>
+                                                                           
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Developer</td>
+                                                                                <td>San Francisco</td>
+                                                                                <td>30</td>
+                                                                                <td>2010-07-14</td>
+                                                                                <td>$86,500</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Regional Director</td>
+                                                                                <td>Edinburgh</td>
+                                                                                <td>51</td>
+                                                                                <td>2008-11-13</td>
+                                                                                <td>$183,000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Javascript Developer</td>
+                                                                                <td>Singapore</td>
+                                                                                <td>29</td>
+                                                                                <td>2011-06-27</td>
+                                                                                <td>$183,000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Foundation Module for Financial Markets</td>
+                                                                                <td>Customer Support</td>
+                                                                                <td>New York</td>
+                                                                                <td>27</td>
+                                                                                <td>2011-01-25</td>
+                                                                                <td>$112,000</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                         </div>
@@ -411,4 +577,6 @@
             </div>
         </div>
         <!-- End:: row-1 -->
-        <?php include('include/footer.php'); ?>
+    </div>
+</div>
+<?php include('include/footer.php'); ?>
