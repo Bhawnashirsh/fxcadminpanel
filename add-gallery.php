@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <div class="row gy-4">
 
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <label for="CourseCategory" class="form-label"> Gallery Category</label>
                             <select class="form-control frm-select" data-trigger name="choices-single-default" id="choices-single-default">
                                 <option value="">Select Category</option>
@@ -44,18 +44,12 @@
 
                             </select>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <label for="SeoTitle" class="form-label">Gallery Image</label>
-                            <input type="file" class="form-control" id="SeoTitle" value="" accept="image/*" onchange="previewImage(event)">
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div id="image-preview" class="mt-3">
-                               
-                            </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <label for="galleryImage" class="form-label">Gallery Image</label>
+                            <input type="file" class="form-control" id="galleryImage" value=""  multiple>
                         </div>
 
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-
                             <button type="submit" class="btn btn-primary fs-6 ">
                                 Add
                             </button>
@@ -70,7 +64,7 @@
 </div>
 
 <?php include('include/footer.php'); ?>
-<script>
+<!-- <script>
     function previewImage(event) {
         const file = event.target.files[0];
         const previewContainer = document.getElementById("image-preview");
@@ -86,4 +80,4 @@
             previewContainer.appendChild(img);
         }
     }
-</script>
+</script> -->

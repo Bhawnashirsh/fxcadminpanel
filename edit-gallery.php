@@ -46,7 +46,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <label for="SeoTitle" class="form-label">Gallery Image</label>
-                            <input type="file" class="form-control" id="SeoTitle" value="" accept="image/*" onchange="previewImage(event)">
+                            <input type="file" class="form-control" id="SeoTitle" value="" accept="image/*">
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div id="image-preview" class="mt-3">
@@ -70,20 +70,3 @@
 </div>
 
 <?php include('include/footer.php'); ?>
-<script>
-    function previewImage(event) {
-        const file = event.target.files[0];
-        const previewContainer = document.getElementById("image-preview");
-        previewContainer.innerHTML = ""; // Clear any existing preview
-
-        if (file) {
-            const img = document.createElement("img");
-            img.src = URL.createObjectURL(file);
-            img.alt = "Uploaded Image";
-            img.style.maxWidth = "200px";
-            img.style.maxHeight = "150px";
-            img.style.objectFit = "cover" ;
-            previewContainer.appendChild(img);
-        }
-    }
-</script>

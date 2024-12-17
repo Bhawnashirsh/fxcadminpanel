@@ -68,6 +68,15 @@ table.dataTable.table-striped>tbody>tr.odd>* {
     top: 8px;
     right: 15px;
 }
+.gallery-edit{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    
+}
+.gallery-edit .dropdown-menu{
+    min-width: 200px;
+}
 .mentors-edit .dropdown-toggle::after{
 display: none;
 }
@@ -88,4 +97,8 @@ display: none;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
+}
+.purchased-courses{
+    height: 246px;
+    overflow-y: scroll
 }

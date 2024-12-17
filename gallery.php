@@ -21,91 +21,88 @@
             </div>
         </div>
         <!-- Page Header Close -->
-        <!-- Start::row-1 -->
+        <!-- Start:: row-1 -->
         <div class="row">
-            <div class="col-xl-12">
-                <div class="card custom-card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            Basic Datatable
-                        </div>
+      
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="card custom-card position-relative">
+                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-22.jpg" class="card-img-top" alt="...">
+                    <div class="dropdown gallery-edit d-inline-block" data-bs-toggle="dropdown">
+                        <a aria-label="anchor" href="javascript:void(0);" class="tx-inverse btn btn-light btn-icons btn-sm "><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="view-mentor.php"><i class="ri-eye-line"></i> View Gallery</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-delete-bin-6-line"></i> Remove</a></li>
+                        </ul>
                     </div>
                     <div class="card-body">
-                        <div class="table-responsive">
-                            <table id="datatable-basic" class="table table-bordered table-striped text-nowrap w-100">
-                                <thead>
-                                    <tr>
-                                        <th>S. No.</th>
-                                        <th>Gallery Category</th>
-                                        <th>Gallery Image</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Exhibition</td>
-                                        <td class="gallery-img"><img src="assets/images/gallery/gallery1.png" alt=""></td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-15">
-                                                <a href="edit-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
-                                                <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Expo</td>
-                                        <td class="gallery-img"><img src="assets/images/gallery/gallery2.jfif" alt=""></td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-15">
-                                                <a href="edit-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
-                                                <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Blog</td>
-                                        <td class="gallery-img"><img src="assets/images/gallery/gallery1.png" alt=""></td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-15">
-                                                <a href="edit-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
-                                                <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Franchise</td>
-                                        <td class="gallery-img"><img src="assets/images/gallery/gallery2.jfif" alt=""></td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-15">
-                                                <a href="edit-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
-                                                <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Contact</td>
-                                        <td class="gallery-img"><img src="assets/images/gallery/gallery2.jfif" alt=""></td>
-                                        <td>
-                                            <div class="hstack gap-2 fs-15">
-                                                <a href="edit-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
-                                                <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                        <h6 class="card-title fw-medium">Exhibition</h6>
+                        <span>5 Images</span>
 
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
+
                 </div>
             </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="card custom-card position-relative">
+                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-22.jpg" class="card-img-top" alt="...">
+                    <div class="dropdown gallery-edit d-inline-block" data-bs-toggle="dropdown">
+                        <a aria-label="anchor" href="javascript:void(0);" class="tx-inverse btn btn-light btn-icons btn-sm "><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="view-mentor.php"><i class="ri-eye-line"></i> View Profile</a></li>
+                      
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-delete-bin-6-line"></i> Remove</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-medium">Expo</h6>
+                        <span>3 Images</span>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="card custom-card position-relative">
+                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-22.jpg" class="card-img-top" alt="...">
+                    <div class="dropdown gallery-edit d-inline-block" data-bs-toggle="dropdown">
+                        <a aria-label="anchor" href="javascript:void(0);" class="tx-inverse btn btn-light btn-icons btn-sm "><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="view-mentor.php"><i class="ri-eye-line"></i> View Profile</a></li>
+                      
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-delete-bin-6-line"></i> Remove</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-medium">Sponsers</h6>
+                        <span>3 Images</span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="card custom-card position-relative">
+                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-22.jpg" class="card-img-top" alt="...">
+                    <div class="dropdown gallery-edit d-inline-block" data-bs-toggle="dropdown">
+                        <a aria-label="anchor" href="javascript:void(0);" class="tx-inverse btn btn-light btn-icons btn-sm "><i class="bi bi-three-dots"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="view-mentor.php"><i class="ri-eye-line"></i> View Profile</a></li>
+                      
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-delete-bin-6-line"></i> Remove</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-medium">Exhibition</h6>
+                        <span>2 Images</span>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-        <!--End::row-1 -->
     </div>
+    <!-- End:: row-1 -->
 </div>
 <?php include('include/footer.php'); ?>

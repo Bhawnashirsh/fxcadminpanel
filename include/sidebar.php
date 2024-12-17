@@ -109,14 +109,27 @@
                         </li>
                     </ul>
                 </li>
-                <li class="slide">
-                    <a href="gallery.php" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2">
+                <li class="slide has-sub">
+                    <a href="javascript:void(0);" class="side-menu__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2">
                             <path d="M20 13C18.3221 13 16.7514 13.4592 15.4068 14.2587C16.5908 15.6438 17.5269 17.2471 18.1465 19H20V13ZM16.0037 19C14.0446 14.3021 9.4079 11 4 11V19H16.0037ZM4 9C7.82914 9 11.3232 10.4348 13.9738 12.7961C15.7047 11.6605 17.7752 11 20 11V3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934C2 3.44476 2.45531 3 2.9918 3H6V1H8V5H4V9ZM18 1V5H10V3H16V1H18ZM16.5 10C15.6716 10 15 9.32843 15 8.5C15 7.67157 15.6716 7 16.5 7C17.3284 7 18 7.67157 18 8.5C18 9.32843 17.3284 10 16.5 10Z"></path>
                         </svg>
                         <span class="side-menu__label">Gallery</span>
+                        <i class="ri-arrow-down-s-line side-menu__angle"></i>
                     </a>
+                    <ul class="slide-menu child1">
+                        <li class="slide side-menu__label1">
+                            <a href="javascript:void(0)">Gallery</a>
+                        </li>
+                        <li class="slide">
+                            <a href="gallery.php" class="side-menu__item">View Gallery</a>
+                        </li>
+                        <li class="slide">
+                            <a href="add-gallery-category.php" class="side-menu__item">Add Gallery Category</a>
+                        </li>
+                    </ul>
                 </li>
+
                 <li class="slide">
                     <a href="mentors.php" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2">
@@ -152,10 +165,43 @@
                         </li>
                     </ul>
                 </li>
+                <!-- Start::slide__category -->
+                <li class="slide__category"><span class="category-name">Study Material</span></li>
+                <!-- End::slide__category -->
+                <li class="slide">
+                    <a href="ebooks.php" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path d="M21 18H6C5.44772 18 5 18.4477 5 19C5 19.5523 5.44772 20 6 20H21V22H6C4.34315 22 3 20.6569 3 19V4C3 2.89543 3.89543 2 5 2H21V18ZM5 16.05C5.16156 16.0172 5.32877 16 5.5 16H19V4H5V16.05ZM16 9H8V7H16V9Z"></path>
+                        </svg>
+                        <span class="side-menu__label">eBooks</span>
+                    </a>
+                </li>
+                <!-- Start::slide__category -->
+                <li class="slide__category"><span class="category-name">Lead Management</span></li>
+                <!-- End::slide__category -->
+                <li class="slide">
+                    <a href="demo-sessions.php" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path d="M13 17V20H18V22H6V20H11V17H4C3.44772 17 3 16.5523 3 16V4H2V2H22V4H21V16C21 16.5523 20.5523 17 20 17H13ZM5 15H19V4H5V15ZM10 6L15 9.5L10 13V6Z"></path>
+                        </svg>
+
+                        <span class="side-menu__label">Demo Sessions </span>
+                    </a>
+                </li>
+                <li class="slide">
+                    <a href="enquiries.php" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2"></path><path d="M5.76282 17H20V5H4V18.3851L5.76282 17ZM6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM11 14H13V16H11V14ZM8.56731 8.81346C8.88637 7.20919 10.302 6 12 6C13.933 6 15.5 7.567 15.5 9.5C15.5 11.433 13.933 13 12 13H11V11H12C12.8284 11 13.5 10.3284 13.5 9.5C13.5 8.67157 12.8284 8 12 8C11.2723 8 10.6656 8.51823 10.5288 9.20577L8.56731 8.81346Z"></path></svg>
+                        <span class="side-menu__label">Enquiries </span>
+                    </a>
+                </li>
             </ul>
-            <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+            <div class="slide-right" id="slide-right">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                     <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
-                </svg></div>
+                </svg>
+            </div>
         </nav>
         <!-- End::nav -->
 
