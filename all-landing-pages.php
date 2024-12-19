@@ -11,10 +11,10 @@
                 <nav>
                     <ol class="breadcrumb mb-1">
                         <li class="breadcrumb-item"><a href="javascript:void(0);">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Enquiries</li>
+                        <li class="breadcrumb-item active" aria-current="page">Landing Pages</li>
                     </ol>
                 </nav>
-                <h1 class="page-title fw-medium fs-18 mb-0">Enquiries</h1>
+                <h1 class="page-title fw-medium fs-18 mb-0">Landing Page Data</h1>
             </div>
 
         </div>
@@ -26,7 +26,7 @@
                 <div class="card custom-card">
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table id="EnquiriesTable" class="table table-bordered table-striped text-nowrap w-100">
+                            <table id="LandingpageTable" class="table table-bordered table-striped text-nowrap w-100">
                                 <thead>
                                     <tr>
                                         <th>S.No.</th>
@@ -34,6 +34,7 @@
                                         <th>Mobile No.</th>
                                         <th>Email</th>
                                         <th>Message</th>
+                                        <th>Landing Page Name </th>
                                         <th>Follow Up </th>
                                        
                                     </tr>
@@ -47,8 +48,8 @@
                                         <td>6753535467</td>
                                         <td>editor@fxcareers.com</td>
                                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quis.</td>
-                                        <td> Done</td>
-
+                                        <td> FFB</td>
+                                        <td>Interested</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -58,8 +59,8 @@
                                         <td>6753535467</td>
                                         <td>editor@fxcareers.com</td>
                                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quis.</td>
+                                        <td>Clarity</td>
                                         <td>Interested</td>
-
                                     </tr>
 
                                 </tbody>
@@ -75,13 +76,13 @@
 <?php include('include/footer.php'); ?>
 <script>
     $(document).ready(function () {
-        $('#EnquiriesTable').DataTable({
+        $('#LandingpageTable').DataTable({
             columnDefs: [
                 {
-                    targets: [4], // Columns: SEO Title, SEO Keywords, SEO Description
+                    targets: [4], 
                     render: function (data, type, row) {
                         if (type === 'display' && data) {
-                            const wordLimit = 8; // Adjust the word limit
+                            const wordLimit = 7; // Adjust the word limit
                             const words = data.split(' ');
                             return words.length > wordLimit 
                                 ? words.slice(0, wordLimit).join(' ') + '...' 

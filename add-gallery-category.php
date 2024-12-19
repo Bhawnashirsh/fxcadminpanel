@@ -79,7 +79,7 @@
                                         <td>5</td>
                                         <td>
                                             <div class="hstack gap-2 fs-15">
-                                                <a href="edit-seo-details.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
+                                                <a href="add-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-image-add-line"></i></a>
                                                 <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                             </div>
                                         </td>
@@ -91,7 +91,7 @@
                                         <td>5</td>
                                         <td>
                                             <div class="hstack gap-2 fs-15">
-                                                <a href="edit-seo-details.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
+                                                <a href="add-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-image-add-line"></i></a>
                                                 <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                             </div>
                                         </td>
@@ -103,7 +103,7 @@
                                         <td>5</td>
                                         <td>
                                             <div class="hstack gap-2 fs-15">
-                                                <a href="edit-seo-details.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
+                                                <a href="add-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-image-add-line"></i></a>
                                                 <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                             </div>
                                         </td>
@@ -115,7 +115,7 @@
                                         <td>5</td>
                                         <td>
                                             <div class="hstack gap-2 fs-15">
-                                                <a href="edit-seo-details.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-edit-line"></i></a>
+                                                <a href="add-gallery.php" class="btn btn-icon btn-sm btn-info-transparent rounded-pill"><i class="ri-image-add-line"></i></a>
                                                 <a href="javascript:void(0);" class="btn btn-icon btn-sm btn-danger-transparent dlt rounded-pill"><i class="ri-delete-bin-line"></i></a>
                                             </div>
                                         </td>

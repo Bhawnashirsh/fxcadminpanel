@@ -263,9 +263,9 @@
             return `
 <div class="details-content  bg-light rounded border p-3">
     <div class="row ">
-        <div class="col-lg-7">
+        <div class="col-lg-12">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card custom-card rounded overflow-hidden p-3">
                         <div>
                             <div class="flex-fill fs-13 text-muted">Amount</div>
@@ -273,7 +273,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card custom-card rounded overflow-hidden p-3">
                         <div>
                             <div class="flex-fill fs-13 text-muted">Total Paid</div>
@@ -281,7 +281,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <div class="card custom-card rounded overflow-hidden p-3">
+                        <div>
+                            <div class="flex-fill fs-13 text-muted">Balance</div>
+                            <div class="fs-21 fw-medium">0.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
                     <div class="card custom-card rounded overflow-hidden p-3">
                         <div>
                             <div class="flex-fill fs-13 text-muted">Balance</div>
@@ -291,75 +299,294 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5">
-            <div class=" card custom-card">
-                <div class="card-body">
-                    <h6 class="mb-3">All Purchased Courses</h6>
-                    <ul class="d-flex flex-column list-unstyled mb-0 purchased-courses popular-course">
-                        <li class="text-muted mb-3">
-                            <div class="d-sm-flex align-items-start w-100">
-                                <a href="javascript:void(0);" class="pe-4 inline-block">
-                                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-13.jpg" alt="img" class="avatar avatar-xl rounded-2">
-                                </a>
-                                <div class="flex-grow-1 fw-medium">
-                                    <div class="d-flex align-items-center" title="Instructor">
-                                        <a href="javascript:void(0);" class="pe-2">
-                                            <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/1.jpg" alt="img" class="avatar avatar-xs rounded-pill">
-                                        </a>
-                                        <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Natasha
-                                            Sil</a>
-                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-success-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Complete</a>
+        <div class="col-lg-12">
+    <div class="card-body">
+                                    <ul class="nav nav-tabs mb-3 tab-style-6" id="myTab3" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="PurchasedCourses" data-bs-toggle="tab"
+                                                data-bs-target="#PurchasedCourses-pane" type="button" role="tab"
+                                                aria-controls="PurchasedCourses-pane" aria-selected="true"><i
+                                                    class="ri-file-text-line me-1 align-middle d-inline-block"></i>Purchased Courses</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="PaymentHistory" data-bs-toggle="tab"
+                                                data-bs-target="#PaymentHistory-pane" type="button" role="tab"
+                                                aria-controls="PaymentHistory-pane" aria-selected="false"><i
+                                                    class="ri-bill-line me-1 align-middle d-inline-block"></i>Payment History</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="profit-tab" data-bs-toggle="tab"
+                                                data-bs-target="#profit-tab-pane" type="button" role="tab"
+                                                aria-controls="profit-tab-pane" aria-selected="false"><i
+                                                    class="ri-money-dollar-box-line me-1 align-middle d-inline-block"></i>Profit</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="expenses-tab" data-bs-toggle="tab"
+                                                data-bs-target="#expenses-tab-pane" type="button" role="tab"
+                                                aria-controls="expenses-tab-pane" aria-selected="false"><i
+                                                    class="ri-exchange-box-line me-1 align-middle d-inline-block"></i>Expenses</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent2">
+                                        <div class="tab-pane fade show active p-3  overflow-hidden" id="PurchasedCourses-pane"
+                                            role="tabpanel" aria-labelledby="PurchasedCourses" tabindex="0">
+                                           <ul class="d-flex flex-column list-unstyled mb-0 popular-course">
+                                        <li class="text-muted mb-3">
+                                            <div class="d-sm-flex align-items-start w-100">
+                                                <a href="javascript:void(0);" class="pe-4 inline-block">
+                                                <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-13.jpg" alt="img" class="avatar avatar-xl rounded-2">
+                                                </a>
+                                                <div class="flex-grow-1 fw-medium">
+                                                    <div class="d-flex align-items-center" title="Instructor">
+                                                        <a href="javascript:void(0);" class="pe-2">
+                                                        <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/1.jpg" alt="img" class="avatar avatar-xs rounded-pill">
+                                                        </a>
+                                                        <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Natasha
+                                                        Sil</a>
+                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary3-transparent" title="Category"><i class="ri-price-tag-3-line "></i> UI/UX</a>
+                                                    </div>
+                                                    <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
+                                                    Mastering CSS Pseudo-classes: From Basics to Advanced Techniques.</a>
+                                                    <div class="d-md-flex justify-content-between align-items-center">
+                                                    <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
+                                                        <span class="me-2 my-auto">
+                                                        <i class="ri-eye-line"></i> 
+                                                            2,189 Views
+                                                        </span> 
+                                                    </div>
+                                                    <div class="min-w-fit fs-11 text-default d-inline-flex">
+                                                        <span>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-half-fill text-warning"></i>(4.2)
+                                                        </span>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" text-muted mb-3">
+                                            <div class="d-sm-flex align-items-start w-100">
+                                                <a href="javascript:void(0);" class="pe-4 inline-block">
+                                                <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-14.jpg" alt="img" class="avatar avatar-xl rounded-2">
+                                                </a>
+                                                <div class="flex-grow-1 fw-medium">
+                                                    <div class="d-flex align-items-center" title="Instructor">
+                                                        <a href="javascript:void(0);" class="pe-2">
+                                                        <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/6.jpg" alt="img" class="avatar avatar-xs rounded-pill">
+                                                        </a>
+                                                        <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Catalina Keira
+                                                        </a>
+                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary2-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Marketing</a>
+                                                    </div>
+                                                    <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
+                                                        Marketing Essentials: Understanding its Role in Business Success.</a>
+                                                    <div class="d-md-flex justify-content-between align-items-center">
+                                                    <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
+                                                        <span class="me-2 my-auto">
+                                                        <i class="ri-eye-line"></i> 
+                                                        1,116 Views
+                                                        </span> 
+                                                    </div>
+                                                    <div class="min-w-fit fs-11 text-default d-inline-flex">
+                                                        <span>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-fill text-warning"></i>
+                                                            <i class="ri-star-half-fill text-warning"></i>(4.3)
+                                                        </span>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" text-muted mb-1">
+                                        <div class="d-sm-flex align-items-start w-100">
+                                            <a href="javascript:void(0);" class="pe-4 inline-block">
+                                            <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-12.jpg" alt="img" class="avatar avatar-xl rounded-2">
+                                            </a>
+                                            <div class="flex-grow-1 fw-medium">
+                                                <div class="d-flex align-items-center" title="Instructor">
+                                                    <a href="javascript:void(0);" class="pe-2">
+                                                    <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/11.jpg" alt="img" class="avatar avatar-xs rounded-pill">
+                                                    </a>
+                                                    <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Telsko 
+                                                        William</a>
+                                                    <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary1-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Python</a>
+                                                </div>
+                                                <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
+                                                    Python Mastery: Shallow Copy vs. Deep Copy and Practical Techniques.</a>
+                                                <div class="d-md-flex justify-content-between align-items-center">
+                                                <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
+                                                    <span class="me-2 my-auto">
+                                                    <i class="ri-eye-line"></i> 
+                                                    2,245 Views
+                                                    </span> 
+                                                </div>
+                                                <div class="min-w-fit fs-11 text-default d-inline-flex">
+                                                    <span>
+                                                        <i class="ri-star-fill text-warning"></i>
+                                                        <i class="ri-star-fill text-warning"></i>
+                                                        <i class="ri-star-fill text-warning"></i>
+                                                        <i class="ri-star-fill text-warning"></i>
+                                                        <i class="ri-star-half-fill text-warning"></i>(4.2)
+                                                    </span>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </li>
+                                    </ul>
+                                        </div>
+                                        <div class="tab-pane fade overflow-hidden" id="PaymentHistory-pane" role="tabpanel"
+                                            aria-labelledby="PaymentHistory" tabindex="0">
+                                            <ul class="list-unstyled mb-1">
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Clothing
+                                                        </div>
+                                                        <div class="fs-14 fw-medium">32,138</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Furniture
+                                                        </div>
+                                                        <div class="fs-14 fw-medium">12,123</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            electronics
+                                                        </div>
+                                                        <div class="fs-14 fw-medium">9,238</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            food Products
+                                                        </div>
+                                                        <div class="fs-14 fw-medium">14,234</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-0">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Home Appliances
+                                                        </div>
+                                                        <div class="fs-14 fw-medium">10,249</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade overflow-hidden" id="profit-tab-pane" role="tabpanel"
+                                            aria-labelledby="profit-tab" tabindex="0">
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Clothing
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-success"><i
+                                                                class="ri-arrow-up-s-fill me-1 align-middle"></i>22.75%
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            electronics
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-success"><i
+                                                                class="ri-arrow-up-s-fill me-1 align-middle"></i>42.24%
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Furniture
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-success"><i
+                                                                class="ri-arrow-up-s-fill me-1 align-middle"></i>15.23%
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Home Appliances
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-success"><i
+                                                                class="ri-arrow-up-s-fill me-1 align-middle"></i>15.14%
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-0">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            food Products
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-success"><i
+                                                                class="ri-arrow-up-s-fill me-1 align-middle"></i>31.64%
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade overflow-hidden" id="expenses-tab-pane" role="tabpanel"
+                                            aria-labelledby="expenses-tab" tabindex="0">
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Clothing
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-danger">-$31,134</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            electronics
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-danger">-$15,256</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Furniture
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-danger">-$24,156</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            Home Appliances
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-danger">-$18,245</div>
+                                                    </div>
+                                                </li>
+                                                <li class="mb-0">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            food Products
+                                                        </div>
+                                                        <div class="fs-14 fw-medium text-danger">-$18,478</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <a href="javascript:void(0);" class=" mb-2 fw-medium text-wrap line-clamp-2">
-                                        Mastering CSS Pseudo-classes: From Basics to Advanced Techniques.</a>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class=" text-muted mb-3">
-                            <div class="d-sm-flex align-items-start w-100">
-                                <a href="javascript:void(0);" class="pe-4 inline-block">
-                                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-14.jpg" alt="img" class="avatar avatar-xl rounded-2">
-                                </a>
-                                <div class="flex-grow-1 fw-medium">
-                                    <div class="d-flex align-items-center" title="Instructor">
-                                        <a href="javascript:void(0);" class="pe-2">
-                                            <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/6.jpg" alt="img" class="avatar avatar-xs rounded-pill">
-                                        </a>
-                                        <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Catalina Keira
-                                        </a>
-                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary2-transparent" title="Category"><i class="ri-price-tag-3-line "></i> On-Going</a>
-                                    </div>
-                                    <a href="javascript:void(0);" class="  mb-2 fw-medium text-wrap line-clamp-2">
-                                        Marketing Essentials: Understanding its Role in Business Success.</a>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class=" text-muted mb-1">
-                            <div class="d-sm-flex align-items-start w-100">
-                                <a href="javascript:void(0);" class="pe-4 inline-block">
-                                    <img src="https://php.spruko.com/xintra/xintra/assets/images/media/media-12.jpg" alt="img" class="avatar avatar-xl rounded-2">
-                                </a>
-                                <div class="flex-grow-1 fw-medium">
-                                    <div class="d-flex align-items-center" title="Instructor">
-                                        <a href="javascript:void(0);" class="pe-2">
-                                            <img src="https://php.spruko.com/xintra/xintra/assets/images/faces/11.jpg" alt="img" class="avatar avatar-xs rounded-pill">
-                                        </a>
-                                        <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Telsko
-                                            William</a>
-                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary1-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Hold</a>
-                                    </div>
-                                    <a href="javascript:void(0);" class=" mb-2 fw-medium text-wrap line-clamp-2">
-                                        Python Mastery: Shallow Copy vs. Deep Copy and Practical Techniques.</a>
-
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
 
         </div>
 
