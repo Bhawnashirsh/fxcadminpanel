@@ -15,10 +15,7 @@
                 </nav>
                 <h1 class="page-title fw-medium fs-18 mb-0">Eidt Slider </h1>
             </div>
-            <div class="btn-list">
-                <a href="add-slider.php" class="btn btn-primary btn-wave me-0">
-                <i class="ri-image-add-line  me-1"></i>  Add Slider </a>
-            </div>
+
            
         </div>
  

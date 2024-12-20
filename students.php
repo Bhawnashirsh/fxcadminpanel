@@ -397,48 +397,52 @@
                                         </div>
                                         <div class="tab-pane fade overflow-hidden" id="PaymentHistory-pane" role="tabpanel"
                                             aria-labelledby="PaymentHistory" tabindex="0">
-                                            <ul class="list-unstyled mb-1">
-                                                <li class="mb-3">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            Clothing
-                                                        </div>
-                                                        <div class="fs-14 fw-medium">32,138</div>
-                                                    </div>
-                                                </li>
-                                                <li class="mb-3">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            Furniture
-                                                        </div>
-                                                        <div class="fs-14 fw-medium">12,123</div>
-                                                    </div>
-                                                </li>
-                                                <li class="mb-3">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            electronics
-                                                        </div>
-                                                        <div class="fs-14 fw-medium">9,238</div>
-                                                    </div>
-                                                </li>
-                                                <li class="mb-3">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            food Products
-                                                        </div>
-                                                        <div class="fs-14 fw-medium">14,234</div>
-                                                    </div>
-                                                </li>
-                                                <li class="mb-0">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            Home Appliances
-                                                        </div>
-                                                        <div class="fs-14 fw-medium">10,249</div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                           <div class="table-responsive">
+        <table class="table text-nowrap">
+            <thead class="table-warning">
+                <tr>
+                    <th scope="col">User Name</th>
+                    <th scope="col">Transaction Id</th>
+                    <th scope="col">Created</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Harshrath</th>
+                    <td>#5182-3467</td>
+                    <td>24 May 2024</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary-light">Pending</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Zozo Hadid</th>
+                    <td>#5182-3412</td>
+                    <td>02 July 2024</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary-light">Pending</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Martiana</th>
+                    <td>#5182-3423</td>
+                    <td>15 April 2024</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger-light">Rejected</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Phillip John</th>
+                    <td>#5182-3456</td>
+                    <td>17 March 2024</td>
+                    <td>
+                        <button class="btn btn-sm btn-success-light">Processed</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
                                         </div>
                                         <div class="tab-pane fade overflow-hidden" id="profit-tab-pane" role="tabpanel"
                                             aria-labelledby="profit-tab" tabindex="0">
