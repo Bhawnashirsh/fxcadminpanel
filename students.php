@@ -343,26 +343,12 @@
                                                         </a>
                                                         <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Natasha
                                                         Sil</a>
-                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary3-transparent" title="Category"><i class="ri-price-tag-3-line "></i> UI/UX</a>
+                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-success-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Complete</a>
                                                     </div>
                                                     <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
                                                     Mastering CSS Pseudo-classes: From Basics to Advanced Techniques.</a>
                                                     <div class="d-md-flex justify-content-between align-items-center">
-                                                    <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
-                                                        <span class="me-2 my-auto">
-                                                        <i class="ri-eye-line"></i> 
-                                                            2,189 Views
-                                                        </span> 
-                                                    </div>
-                                                    <div class="min-w-fit fs-11 text-default d-inline-flex">
-                                                        <span>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-half-fill text-warning"></i>(4.2)
-                                                        </span>
-                                                    </div>
+        
                                                     </div>
                                                 </div>
                                             </div>
@@ -379,27 +365,11 @@
                                                         </a>
                                                         <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Catalina Keira
                                                         </a>
-                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary2-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Marketing</a>
+                                                        <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary2-transparent" title="Category"><i class="ri-price-tag-3-line "></i> On going</a>
                                                     </div>
                                                     <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
                                                         Marketing Essentials: Understanding its Role in Business Success.</a>
-                                                    <div class="d-md-flex justify-content-between align-items-center">
-                                                    <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
-                                                        <span class="me-2 my-auto">
-                                                        <i class="ri-eye-line"></i> 
-                                                        1,116 Views
-                                                        </span> 
-                                                    </div>
-                                                    <div class="min-w-fit fs-11 text-default d-inline-flex">
-                                                        <span>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-fill text-warning"></i>
-                                                            <i class="ri-star-half-fill text-warning"></i>(4.3)
-                                                        </span>
-                                                    </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </li>
@@ -415,27 +385,11 @@
                                                     </a>
                                                     <a href="javascript:void(0);" class="flex-grow-1 text-default op-8">Telsko 
                                                         William</a>
-                                                    <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary1-transparent" title="Category"><i class="ri-price-tag-3-line "></i> Python</a>
+                                                    <a href="javascript:void(0);" class=" d-block mb-1 fw-normal badge bg-primary3-transparent" title="Category"><i class="ri-price-tag-3-line "></i> On Hold</a>
                                                 </div>
                                                 <a href="javascript:void(0);" class=" d-block mb-2 fw-medium">
                                                     Python Mastery: Shallow Copy vs. Deep Copy and Practical Techniques.</a>
-                                                <div class="d-md-flex justify-content-between align-items-center">
-                                                <div class="min-w-fit fs-12 text-muted op-8 d-inline-flex">
-                                                    <span class="me-2 my-auto">
-                                                    <i class="ri-eye-line"></i> 
-                                                    2,245 Views
-                                                    </span> 
-                                                </div>
-                                                <div class="min-w-fit fs-11 text-default d-inline-flex">
-                                                    <span>
-                                                        <i class="ri-star-fill text-warning"></i>
-                                                        <i class="ri-star-fill text-warning"></i>
-                                                        <i class="ri-star-fill text-warning"></i>
-                                                        <i class="ri-star-fill text-warning"></i>
-                                                        <i class="ri-star-half-fill text-warning"></i>(4.2)
-                                                    </span>
-                                                </div>
-                                                </div>
+                                              
                                             </div>
                                         </div>
                                         </li>

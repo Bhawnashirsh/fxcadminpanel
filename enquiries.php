@@ -34,7 +34,7 @@
                                         <th>Mobile No.</th>
                                         <th>Email</th>
                                         <th>Message</th>
-                                        <th>Follow Up </th>
+                                       
                                        
                                     </tr>
                                 </thead>
@@ -47,7 +47,7 @@
                                         <td>6753535467</td>
                                         <td>editor@fxcareers.com</td>
                                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quis.</td>
-                                        <td> Done</td>
+                                     
 
                                     </tr>
                                     <tr>
@@ -58,7 +58,7 @@
                                         <td>6753535467</td>
                                         <td>editor@fxcareers.com</td>
                                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quis.</td>
-                                        <td>Interested</td>
+                                        
 
                                     </tr>
 
