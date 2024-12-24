@@ -144,8 +144,6 @@
         const table = $('#coursesTable').DataTable({
             responsive: true,
 
-
-
         });
 
         let currentlyOpenRow = null; // Track the currently open detail row

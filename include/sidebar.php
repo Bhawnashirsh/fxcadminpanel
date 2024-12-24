@@ -129,6 +129,35 @@
                         </li>
                     </ul>
                 </li>
+                <li class="slide">
+                    <a href="blog.php" class="side-menu__item">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"  class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2"><path fill="none" d="M0 0h24v24H0z"></path><path d="M2 4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4ZM4 5V19H20V5H4ZM6 7H12V13H6V7ZM8 9V11H10V9H8ZM14 9H18V7H14V9ZM18 13H14V11H18V13ZM6 15V17L18 17V15L6 15Z"></path></svg>
+                        <span class="side-menu__label">Blog</span>
+                    </a>
+                </li>
+
+                <!-- Start::slide__category -->
+                <li class="slide__category"><span class="category-name">Careers</span></li>
+                <!-- End::slide__category -->
+                <li class="slide has-sub">
+                    <a href="javascript:void(0);" class="side-menu__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 side-menu__icon" viewBox="0 0 24 24" fill="currentColor" stroke-width="0.2"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 14V16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM21.4462 20.032L22.9497 21.5355L21.5355 22.9497L20.032 21.4462C19.4365 21.7981 18.7418 22 18 22C15.7909 22 14 20.2091 14 18C14 15.7909 15.7909 14 18 14C20.2091 14 22 15.7909 22 18C22 18.7418 21.7981 19.4365 21.4462 20.032ZM18 20C19.1046 20 20 19.1046 20 18C20 16.8954 19.1046 16 18 16C16.8954 16 16 16.8954 16 18C16 19.1046 16.8954 20 18 20Z"></path></svg>
+                        <span class="side-menu__label">Careers</span>
+                        <i class="ri-arrow-down-s-line side-menu__angle"></i>
+                    </a>
+                    <ul class="slide-menu child1">
+                        <li class="slide side-menu__label1">
+                            <a href="javascript:void(0)">Careers</a>
+                        </li>
+                        <li class="slide">
+                            <a href="add-job-opening.php" class="side-menu__item">Add Job Opening</a>
+                        </li>
+                        <li class="slide">
+                            <a href="careers-queries.php" class="side-menu__item">All Careers Queries</a>
+                        </li>
+                    </ul>
+                </li>
 
                 <li class="slide">
                     <a href="mentors.php" class="side-menu__item">
