@@ -34,8 +34,7 @@
                             <table id="studentTable" class="table table-bordered table-striped text-nowrap w-100">
                                 <thead>
                                     <tr>
-
-                                        <th class="">Student</th>
+                                         <th class="">Student</th>
                                         <th class="">Mobile No.</th>
                                         <th class="">Email</th>
                                         <th class="">No. of Courses</th>
